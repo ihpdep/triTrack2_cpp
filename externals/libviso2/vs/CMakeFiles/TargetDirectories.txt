@@ -1,0 +1,3 @@
+F:/desk/git/libviso2/vs/CMakeFiles/ALL_BUILD.dir
+F:/desk/git/libviso2/vs/CMakeFiles/ZERO_CHECK.dir
+F:/desk/git/libviso2/vs/CMakeFiles/viso2.dir
