@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\zhangzheng1993\Desktop\FinalProject\tritrack\triTrack2\libviso2\build\CMakeFiles\0f081400db7993252c54e6544bf7f274\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{3B7BD4F9-FE7F-3995-947D-E5E61FC03C74}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

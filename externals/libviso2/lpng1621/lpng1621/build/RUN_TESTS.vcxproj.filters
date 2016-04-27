@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\zhangzheng1993\Desktop\FinalProject\tritrack\triTrack2\libviso2\lpng1621\lpng1621\build\CMakeFiles\cbb2e0f0e9c0b6fd2a174b6a39298756\RUN_TESTS_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{EDEBA822-797F-3552-8AA9-5D8574588441}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

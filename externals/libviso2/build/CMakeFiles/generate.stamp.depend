@@ -1,0 +1,21 @@
+# CMake generation dependency list for this directory.
+C:/Users/zhangzheng1993/Desktop/FinalProject/tritrack/triTrack2/libviso2/CMakeLists.txt
+C:/Users/zhangzheng1993/Desktop/FinalProject/tritrack/triTrack2/libviso2/build/CMakeFiles/3.4.3/CMakeSystem.cmake
+D:/Software/cmake-3.4.3-win32-x86/share/cmake-3.4/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Users/zhangzheng1993/Desktop/FinalProject/tritrack/triTrack2/libviso2/build/CMakeFiles/3.4.3/CMakeCCompiler.cmake
+C:/Users/zhangzheng1993/Desktop/FinalProject/tritrack/triTrack2/libviso2/build/CMakeFiles/3.4.3/CMakeCXXCompiler.cmake
+D:/Software/cmake-3.4.3-win32-x86/share/cmake-3.4/Modules/CMakeSystemSpecificInformation.cmake
+D:/Software/cmake-3.4.3-win32-x86/share/cmake-3.4/Modules/CMakeGenericSystem.cmake
+D:/Software/cmake-3.4.3-win32-x86/share/cmake-3.4/Modules/Platform/Windows.cmake
+D:/Software/cmake-3.4.3-win32-x86/share/cmake-3.4/Modules/Platform/WindowsPaths.cmake
+D:/Software/cmake-3.4.3-win32-x86/share/cmake-3.4/Modules/CMakeCInformation.cmake
+D:/Software/cmake-3.4.3-win32-x86/share/cmake-3.4/Modules/Platform/Windows-MSVC-C.cmake
+D:/Software/cmake-3.4.3-win32-x86/share/cmake-3.4/Modules/Platform/Windows-MSVC.cmake
+C:/Users/zhangzheng1993/Desktop/FinalProject/tritrack/triTrack2/libviso2/build/CMakeFiles/3.4.3/CMakeRCCompiler.cmake
+D:/Software/cmake-3.4.3-win32-x86/share/cmake-3.4/Modules/CMakeRCInformation.cmake
+D:/Software/cmake-3.4.3-win32-x86/share/cmake-3.4/Modules/CMakeCommonLanguageInclude.cmake
+D:/Software/cmake-3.4.3-win32-x86/share/cmake-3.4/Modules/CMakeCXXInformation.cmake
+D:/Software/cmake-3.4.3-win32-x86/share/cmake-3.4/Modules/Compiler/MSVC-CXX.cmake
+D:/Software/cmake-3.4.3-win32-x86/share/cmake-3.4/Modules/Platform/Windows-MSVC-CXX.cmake
+D:/Software/cmake-3.4.3-win32-x86/share/cmake-3.4/Modules/Platform/Windows-MSVC.cmake
+D:/Software/cmake-3.4.3-win32-x86/share/cmake-3.4/Modules/CMakeCommonLanguageInclude.cmake

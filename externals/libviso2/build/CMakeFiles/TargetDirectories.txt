@@ -1,0 +1,3 @@
+C:/Users/zhangzheng1993/Desktop/FinalProject/tritrack/triTrack2/libviso2/build/CMakeFiles/viso2.dir
+C:/Users/zhangzheng1993/Desktop/FinalProject/tritrack/triTrack2/libviso2/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/zhangzheng1993/Desktop/FinalProject/tritrack/triTrack2/libviso2/build/CMakeFiles/ZERO_CHECK.dir

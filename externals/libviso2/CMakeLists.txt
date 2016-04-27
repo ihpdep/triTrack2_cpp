@@ -5,6 +5,10 @@ project (libviso2)
 # directories
 set (LIBVISO2_SRC_DIR src)
 
+# needed packages
+#find_package(LIBPNG16 REQUIRED)
+#include_directories(${LIBPNG16_INCLUDE_DIR})
+
 # include directory
 include_directories("${LIBVISO2_SRC_DIR}")
 

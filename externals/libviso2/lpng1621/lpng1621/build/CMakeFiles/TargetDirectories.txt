@@ -1,0 +1,7 @@
+C:/Users/zhangzheng1993/Desktop/FinalProject/tritrack/triTrack2/libviso2/lpng1621/lpng1621/build/CMakeFiles/png16_static.dir
+C:/Users/zhangzheng1993/Desktop/FinalProject/tritrack/triTrack2/libviso2/lpng1621/lpng1621/build/CMakeFiles/pngvalid.dir
+C:/Users/zhangzheng1993/Desktop/FinalProject/tritrack/triTrack2/libviso2/lpng1621/lpng1621/build/CMakeFiles/pngstest.dir
+C:/Users/zhangzheng1993/Desktop/FinalProject/tritrack/triTrack2/libviso2/lpng1621/lpng1621/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/zhangzheng1993/Desktop/FinalProject/tritrack/triTrack2/libviso2/lpng1621/lpng1621/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/zhangzheng1993/Desktop/FinalProject/tritrack/triTrack2/libviso2/lpng1621/lpng1621/build/CMakeFiles/pngtest.dir
+C:/Users/zhangzheng1993/Desktop/FinalProject/tritrack/triTrack2/libviso2/lpng1621/lpng1621/build/CMakeFiles/png16.dir

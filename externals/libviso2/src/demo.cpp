@@ -1,11 +1,11 @@
-/*
+/* 
 Copyright 2012. All rights reserved.
 Institute of Measurement and Control Systems
 Karlsruhe Institute of Technology, Germany
 
 This file is part of libviso2.
 Authors: Andreas Geiger
-
+  
 libviso2 is free software; you can redistribute it and/or modify it under the
 terms of the GNU General Public License as published by the Free Software
 Foundation; either version 2 of the License, or any later version.
@@ -30,24 +30,26 @@ Street, Fifth Floor, Boston, MA 02110-1301, USA
 #include <string>
 #include <vector>
 #include <stdint.h>
-
 #include <viso_stereo.h>
-#include <png++/png.hpp>
+#include <png.hpp>
+#include "matcher.h"
 
-
+//#include</media/zhangzheng/48CCB172CCB15AC0/Users/zhangzheng1993/Desktop/FinalProject/tritrack/triTrack2/libviso2/png++-0.2.9.tar/png++-0.2.9/png.hpp>
+static Matcher *M;
 using namespace std;
 
 int main (int argc, char** argv) {
 
+	//getchar();
   // we need the path name to 2010_03_09_drive_0019 as input argument
   if (argc<2) {
     cerr << "Usage: ./viso2 path/to/sequence/2010_03_09_drive_0019" << endl;
     return 1;
   }
-
+  //getchar();
   // sequence directory
   string dir = argv[1];
-  
+  //string dir = "c:\Users\zhangzheng1993";
   // set most important visual odometry parameters
   // for a full parameter list, look at: viso_stereo.h
   VisualOdometryStereo::parameters param;
@@ -60,7 +62,9 @@ int main (int argc, char** argv) {
   
   // init visual odometry
   VisualOdometryStereo viso(param);
-  
+  Matcher::parameters param1;
+  matcherMex("init",param1);
+ 
   // current pose (this matrix transforms a point from the current
   // frame's camera coordinates to the first frame's camera coordinates)
   Matrix pose = Matrix::eye(4);
@@ -120,14 +124,14 @@ int main (int argc, char** argv) {
       // release uint8_t buffers
       free(left_img_data);
       free(right_img_data);
-
+	  //getchar();
     // catch image read errors here
     } catch (...) {
       cerr << "ERROR: Couldn't read input files!" << endl;
       return 1;
     }
   }
-  
+  getchar();
   // output
   cout << "Demo complete! Exiting ..." << endl;
 
