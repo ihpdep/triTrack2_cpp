@@ -40,7 +40,8 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ReferencePath>$(ReferencePath)</ReferencePath>
-    <IncludePath>./externals;$(IncludePath)</IncludePath>
+    <IncludePath>./externals;./externals/libviso2/png++-0.2.9.tar/png++-0.2.9;./externals/libviso2/src;C:\Users\zhangzheng1993\Desktop\FinalProject\tritrack\triTrack2_cpp-master\triTrack2_cpp-master\externals\zlib-1.2.8;C:\Users\zhangzheng1993\Desktop\FinalProject\tritrack\triTrack2_cpp-master\triTrack2_cpp-master\externals\png++;C:\Users\zhangzheng1993\Desktop\FinalProject\tritrack\triTrack2_cpp-master\triTrack2_cpp-master\externals\libviso2\lpng1621\lpng1621\zlib128\zlib-1.2.8;C:\Users\zhangzheng1993\Desktop\FinalProject\tritrack\triTrack2_cpp-master\triTrack2_cpp-master\externals\libviso2\lpng1621\lpng1621\zlib128\zlib-1.2.8\build;$(IncludePath)</IncludePath>
+    <LibraryPath>./externals/libviso2/lpng1621/lpng1621/build/Debug;./externals/libviso2/build/Release;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -49,6 +50,7 @@
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;viso2.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;png.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -65,7 +67,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="externals\libviso2\src\filter.cpp" />
+    <ClCompile Include="externals\libviso2\src\matcher.cpp" />
+    <ClCompile Include="externals\libviso2\src\matrix.cpp" />
+    <ClCompile Include="externals\libviso2\src\reconstruction.cpp" />
+    <ClCompile Include="externals\libviso2\src\triangle.cpp" />
+    <ClCompile Include="externals\libviso2\src\viso.cpp" />
+    <ClCompile Include="externals\libviso2\src\viso_mono.cpp" />
+    <ClCompile Include="externals\libviso2\src\viso_stereo.cpp" />
     <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="externals\zlib-1.2.8\zconf.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
