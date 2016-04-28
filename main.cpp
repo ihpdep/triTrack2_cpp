@@ -1,8 +1,6 @@
-   #include <iostream>
+#include <iostream>
 #include <Eigen/Dense>
 
-
-#include <iostream>
 #include <string>
 #include <vector>
 #include <stdint.h>
@@ -95,7 +93,7 @@ int main (int argc, char** argv) {
         double num_matches = viso.getNumberOfMatches();
         double num_inliers = viso.getNumberOfInliers();
         cout << ", Matches: " << num_matches;
-        cout << ", Inliers: " << 100.0*num_inliers/num_matches << " %" << ", Current pose: " << endl;
+        cout << ", Inliers: " << 100.0*num_inliers/num_matches << "%" << ", Current pose: " << endl;
         cout << pose << endl << endl;
 
       } else {
