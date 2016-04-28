@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\zhangzheng1993\Desktop\FinalProject\tritrack\triTrack2\libviso2\lpng1621\lpng1621\zlib128\zlib-1.2.8\test\example.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\zhangzheng1993\Desktop\FinalProject\tritrack\triTrack2\libviso2\lpng1621\lpng1621\zlib128\zlib-1.2.8\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{68642189-953A-3524-8DEF-7453ED4E7A7D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

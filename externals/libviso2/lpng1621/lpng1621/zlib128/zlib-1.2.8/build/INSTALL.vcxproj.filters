@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\zhangzheng1993\Desktop\FinalProject\tritrack\triTrack2\libviso2\lpng1621\lpng1621\zlib128\zlib-1.2.8\build\CMakeFiles\681113c2ccc2ef6576db7b7119c4079a\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{5067C36E-E708-3F7E-AB69-83413F82A663}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

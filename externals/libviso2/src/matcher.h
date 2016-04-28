@@ -224,6 +224,7 @@ private:
   // mean for gain computation
   inline float mean(const uint8_t* I,const int32_t &bpl,const int32_t &u_min,const int32_t &u_max,const int32_t &v_min,const int32_t &v_max);
 
+	
   // parameters
   parameters param;
   int32_t    margin;
@@ -243,6 +244,8 @@ private:
   std::vector<Matcher::p_match> p_matched_2;
   std::vector<Matcher::range>   ranges;
 };
-
+//by zhangzheng 4/23/2016
+   void matcherMex(char prhs[],Matcher::parameters param1,Matcher::parameters param2);
+   void matcherMex2(char prhs[],int q);
 #endif
 

@@ -1,0 +1,8 @@
+C:/Users/zhangzheng1993/Desktop/FinalProject/tritrack/triTrack2/libviso2/lpng1621/lpng1621/zlib128/zlib-1.2.8/build/CMakeFiles/zlib.dir
+C:/Users/zhangzheng1993/Desktop/FinalProject/tritrack/triTrack2/libviso2/lpng1621/lpng1621/zlib128/zlib-1.2.8/build/CMakeFiles/zlibstatic.dir
+C:/Users/zhangzheng1993/Desktop/FinalProject/tritrack/triTrack2/libviso2/lpng1621/lpng1621/zlib128/zlib-1.2.8/build/CMakeFiles/example.dir
+C:/Users/zhangzheng1993/Desktop/FinalProject/tritrack/triTrack2/libviso2/lpng1621/lpng1621/zlib128/zlib-1.2.8/build/CMakeFiles/minigzip.dir
+C:/Users/zhangzheng1993/Desktop/FinalProject/tritrack/triTrack2/libviso2/lpng1621/lpng1621/zlib128/zlib-1.2.8/build/CMakeFiles/RUN_TESTS.dir
+C:/Users/zhangzheng1993/Desktop/FinalProject/tritrack/triTrack2/libviso2/lpng1621/lpng1621/zlib128/zlib-1.2.8/build/CMakeFiles/INSTALL.dir
+C:/Users/zhangzheng1993/Desktop/FinalProject/tritrack/triTrack2/libviso2/lpng1621/lpng1621/zlib128/zlib-1.2.8/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/zhangzheng1993/Desktop/FinalProject/tritrack/triTrack2/libviso2/lpng1621/lpng1621/zlib128/zlib-1.2.8/build/CMakeFiles/ZERO_CHECK.dir

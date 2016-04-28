@@ -1,0 +1,341 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{2B3E9862-618F-3382-BA85-D6E537A1AF18}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>pngtest</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\zhangzheng1993\Desktop\FinalProject\tritrack\triTrack2\libviso2\lpng1621\lpng1621\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">pngtest.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">pngtest</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\zhangzheng1993\Desktop\FinalProject\tritrack\triTrack2\libviso2\lpng1621\lpng1621\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">pngtest.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">pngtest</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\zhangzheng1993\Desktop\FinalProject\tritrack\triTrack2\libviso2\lpng1621\lpng1621\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">pngtest.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">pngtest</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\zhangzheng1993\Desktop\FinalProject\tritrack\triTrack2\libviso2\lpng1621\lpng1621\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">pngtest.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">pngtest</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>C:\Users\zhangzheng1993\Desktop\FinalProject\tritrack\triTrack2\libviso2\lpng1621\lpng1621\zlib128\zlib-1.2.8\build;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>C:\Users\zhangzheng1993\Desktop\FinalProject\tritrack\triTrack2\libviso2\lpng1621\lpng1621\zlib128\zlib-1.2.8\build;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\zhangzheng1993\Desktop\FinalProject\tritrack\triTrack2\libviso2\lpng1621\lpng1621\zlib128\zlib-1.2.8;C:\Users\zhangzheng1993\Desktop\FinalProject\tritrack\triTrack2\libviso2\lpng1621\lpng1621\build;C:\Users\zhangzheng1993\Desktop\FinalProject\tritrack\triTrack2\libviso2\lpng1621\lpng1621;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\zhangzheng1993\Desktop\FinalProject\tritrack\triTrack2\libviso2\lpng1621\lpng1621\zlib128\zlib-1.2.8;C:\Users\zhangzheng1993\Desktop\FinalProject\tritrack\triTrack2\libviso2\lpng1621\lpng1621\build;C:\Users\zhangzheng1993\Desktop\FinalProject\tritrack\triTrack2\libviso2\lpng1621\lpng1621;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\zhangzheng1993\Desktop\FinalProject\tritrack\triTrack2\libviso2\lpng1621\lpng1621\zlib128\zlib-1.2.8;C:\Users\zhangzheng1993\Desktop\FinalProject\tritrack\triTrack2\libviso2\lpng1621\lpng1621\build;C:\Users\zhangzheng1993\Desktop\FinalProject\tritrack\triTrack2\libviso2\lpng1621\lpng1621;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;Release\libpng16.lib;..\zlib128\zlib-1.2.8\build\Release\zlib.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/zhangzheng1993/Desktop/FinalProject/tritrack/triTrack2/libviso2/lpng1621/lpng1621/build/Release/pngtest.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/zhangzheng1993/Desktop/FinalProject/tritrack/triTrack2/libviso2/lpng1621/lpng1621/build/Release/pngtest.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\zhangzheng1993\Desktop\FinalProject\tritrack\triTrack2\libviso2\lpng1621\lpng1621\zlib128\zlib-1.2.8;C:\Users\zhangzheng1993\Desktop\FinalProject\tritrack\triTrack2\libviso2\lpng1621\lpng1621\build;C:\Users\zhangzheng1993\Desktop\FinalProject\tritrack\triTrack2\libviso2\lpng1621\lpng1621;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_CRT_SECURE_NO_DEPRECATE;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_CRT_SECURE_NO_DEPRECATE;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\zhangzheng1993\Desktop\FinalProject\tritrack\triTrack2\libviso2\lpng1621\lpng1621\zlib128\zlib-1.2.8;C:\Users\zhangzheng1993\Desktop\FinalProject\tritrack\triTrack2\libviso2\lpng1621\lpng1621\build;C:\Users\zhangzheng1993\Desktop\FinalProject\tritrack\triTrack2\libviso2\lpng1621\lpng1621;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\zhangzheng1993\Desktop\FinalProject\tritrack\triTrack2\libviso2\lpng1621\lpng1621\zlib128\zlib-1.2.8;C:\Users\zhangzheng1993\Desktop\FinalProject\tritrack\triTrack2\libviso2\lpng1621\lpng1621\build;C:\Users\zhangzheng1993\Desktop\FinalProject\tritrack\triTrack2\libviso2\lpng1621\lpng1621;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;Debug\libpng16d.lib;..\zlib128\zlib-1.2.8\build\Debug\zlib.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/zhangzheng1993/Desktop/FinalProject/tritrack/triTrack2/libviso2/lpng1621/lpng1621/build/Debug/pngtest.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/zhangzheng1993/Desktop/FinalProject/tritrack/triTrack2/libviso2/lpng1621/lpng1621/build/Debug/pngtest.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\zhangzheng1993\Desktop\FinalProject\tritrack\triTrack2\libviso2\lpng1621\lpng1621\zlib128\zlib-1.2.8;C:\Users\zhangzheng1993\Desktop\FinalProject\tritrack\triTrack2\libviso2\lpng1621\lpng1621\build;C:\Users\zhangzheng1993\Desktop\FinalProject\tritrack\triTrack2\libviso2\lpng1621\lpng1621;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\zhangzheng1993\Desktop\FinalProject\tritrack\triTrack2\libviso2\lpng1621\lpng1621\zlib128\zlib-1.2.8;C:\Users\zhangzheng1993\Desktop\FinalProject\tritrack\triTrack2\libviso2\lpng1621\lpng1621\build;C:\Users\zhangzheng1993\Desktop\FinalProject\tritrack\triTrack2\libviso2\lpng1621\lpng1621;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\zhangzheng1993\Desktop\FinalProject\tritrack\triTrack2\libviso2\lpng1621\lpng1621\zlib128\zlib-1.2.8;C:\Users\zhangzheng1993\Desktop\FinalProject\tritrack\triTrack2\libviso2\lpng1621\lpng1621\build;C:\Users\zhangzheng1993\Desktop\FinalProject\tritrack\triTrack2\libviso2\lpng1621\lpng1621;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;MinSizeRel\libpng16.lib;..\zlib128\zlib-1.2.8\build\Release\zlib.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/zhangzheng1993/Desktop/FinalProject/tritrack/triTrack2/libviso2/lpng1621/lpng1621/build/MinSizeRel/pngtest.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/zhangzheng1993/Desktop/FinalProject/tritrack/triTrack2/libviso2/lpng1621/lpng1621/build/MinSizeRel/pngtest.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\zhangzheng1993\Desktop\FinalProject\tritrack\triTrack2\libviso2\lpng1621\lpng1621\zlib128\zlib-1.2.8;C:\Users\zhangzheng1993\Desktop\FinalProject\tritrack\triTrack2\libviso2\lpng1621\lpng1621\build;C:\Users\zhangzheng1993\Desktop\FinalProject\tritrack\triTrack2\libviso2\lpng1621\lpng1621;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\zhangzheng1993\Desktop\FinalProject\tritrack\triTrack2\libviso2\lpng1621\lpng1621\zlib128\zlib-1.2.8;C:\Users\zhangzheng1993\Desktop\FinalProject\tritrack\triTrack2\libviso2\lpng1621\lpng1621\build;C:\Users\zhangzheng1993\Desktop\FinalProject\tritrack\triTrack2\libviso2\lpng1621\lpng1621;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\zhangzheng1993\Desktop\FinalProject\tritrack\triTrack2\libviso2\lpng1621\lpng1621\zlib128\zlib-1.2.8;C:\Users\zhangzheng1993\Desktop\FinalProject\tritrack\triTrack2\libviso2\lpng1621\lpng1621\build;C:\Users\zhangzheng1993\Desktop\FinalProject\tritrack\triTrack2\libviso2\lpng1621\lpng1621;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;RelWithDebInfo\libpng16.lib;..\zlib128\zlib-1.2.8\build\Release\zlib.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/zhangzheng1993/Desktop/FinalProject/tritrack/triTrack2/libviso2/lpng1621/lpng1621/build/RelWithDebInfo/pngtest.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/zhangzheng1993/Desktop/FinalProject/tritrack/triTrack2/libviso2/lpng1621/lpng1621/build/RelWithDebInfo/pngtest.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\zhangzheng1993\Desktop\FinalProject\tritrack\triTrack2\libviso2\lpng1621\lpng1621\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/zhangzheng1993/Desktop/FinalProject/tritrack/triTrack2/libviso2/lpng1621/lpng1621/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+D:\Software\cmake-3.4.3-win32-x86\bin\cmake.exe -HC:/Users/zhangzheng1993/Desktop/FinalProject/tritrack/triTrack2/libviso2/lpng1621/lpng1621 -BC:/Users/zhangzheng1993/Desktop/FinalProject/tritrack/triTrack2/libviso2/lpng1621/lpng1621/build --check-stamp-file C:\Users\zhangzheng1993\Desktop\FinalProject\tritrack\triTrack2\libviso2\lpng1621\lpng1621\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/zhangzheng1993/Desktop/FinalProject/tritrack/triTrack2/libviso2/lpng1621/lpng1621/CMakeLists.txt;C:\Users\zhangzheng1993\Desktop\FinalProject\tritrack\triTrack2\libviso2\lpng1621\lpng1621\CMakeLists.txt;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CMakeDetermineSystem.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CMakeSystem.cmake.in;C:\Users\zhangzheng1993\Desktop\FinalProject\tritrack\triTrack2\libviso2\lpng1621\lpng1621\build\CMakeFiles\3.4.3\CMakeSystem.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CMakeSystemSpecificInitialize.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CMakeDetermineCCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CMakeDetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CMakeDetermineCompilerId.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CMakeCompilerIdDetection.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CMakeParseArguments.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\GNU-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\TI-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CompilerId\VS-10.vcxproj.in;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CMakeFindBinUtils.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CMakeCCompiler.cmake.in;C:\Users\zhangzheng1993\Desktop\FinalProject\tritrack\triTrack2\libviso2\lpng1621\lpng1621\build\CMakeFiles\3.4.3\CMakeCCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CMakeSystemSpecificInformation.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CMakeGenericSystem.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Platform\Windows.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Platform\WindowsPaths.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CMakeCInformation.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Platform\Windows-MSVC-C.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CMakeDetermineRCCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CMakeRCCompiler.cmake.in;C:\Users\zhangzheng1993\Desktop\FinalProject\tritrack\triTrack2\libviso2\lpng1621\lpng1621\build\CMakeFiles\3.4.3\CMakeRCCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CMakeRCInformation.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CMakeTestRCCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CMakeTestCCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CMakeTestCompilerCommon.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CMakeDetermineCompilerABI.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CMakeCCompilerABI.c;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CMakeDetermineCompileFeatures.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CMakeCCompiler.cmake.in;C:\Users\zhangzheng1993\Desktop\FinalProject\tritrack\triTrack2\libviso2\lpng1621\lpng1621\build\CMakeFiles\3.4.3\CMakeCCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\FindZLIB.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\SelectLibraryConfigurations.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\FindPackageMessage.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Users\zhangzheng1993\Desktop\FinalProject\tritrack\triTrack2\libviso2\lpng1621\lpng1621\scripts\pnglibconf.h.prebuilt;C:\Users\zhangzheng1993\Desktop\FinalProject\tritrack\triTrack2\libviso2\lpng1621\lpng1621\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\zhangzheng1993\Desktop\FinalProject\tritrack\triTrack2\libviso2\lpng1621\lpng1621\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/zhangzheng1993/Desktop/FinalProject/tritrack/triTrack2/libviso2/lpng1621/lpng1621/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+D:\Software\cmake-3.4.3-win32-x86\bin\cmake.exe -HC:/Users/zhangzheng1993/Desktop/FinalProject/tritrack/triTrack2/libviso2/lpng1621/lpng1621 -BC:/Users/zhangzheng1993/Desktop/FinalProject/tritrack/triTrack2/libviso2/lpng1621/lpng1621/build --check-stamp-file C:\Users\zhangzheng1993\Desktop\FinalProject\tritrack\triTrack2\libviso2\lpng1621\lpng1621\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/zhangzheng1993/Desktop/FinalProject/tritrack/triTrack2/libviso2/lpng1621/lpng1621/CMakeLists.txt;C:\Users\zhangzheng1993\Desktop\FinalProject\tritrack\triTrack2\libviso2\lpng1621\lpng1621\CMakeLists.txt;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CMakeDetermineSystem.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CMakeSystem.cmake.in;C:\Users\zhangzheng1993\Desktop\FinalProject\tritrack\triTrack2\libviso2\lpng1621\lpng1621\build\CMakeFiles\3.4.3\CMakeSystem.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CMakeSystemSpecificInitialize.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CMakeDetermineCCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CMakeDetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CMakeDetermineCompilerId.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CMakeCompilerIdDetection.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CMakeParseArguments.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\GNU-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\TI-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CompilerId\VS-10.vcxproj.in;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CMakeFindBinUtils.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CMakeCCompiler.cmake.in;C:\Users\zhangzheng1993\Desktop\FinalProject\tritrack\triTrack2\libviso2\lpng1621\lpng1621\build\CMakeFiles\3.4.3\CMakeCCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CMakeSystemSpecificInformation.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CMakeGenericSystem.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Platform\Windows.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Platform\WindowsPaths.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CMakeCInformation.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Platform\Windows-MSVC-C.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CMakeDetermineRCCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CMakeRCCompiler.cmake.in;C:\Users\zhangzheng1993\Desktop\FinalProject\tritrack\triTrack2\libviso2\lpng1621\lpng1621\build\CMakeFiles\3.4.3\CMakeRCCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CMakeRCInformation.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CMakeTestRCCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CMakeTestCCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CMakeTestCompilerCommon.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CMakeDetermineCompilerABI.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CMakeCCompilerABI.c;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CMakeDetermineCompileFeatures.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CMakeCCompiler.cmake.in;C:\Users\zhangzheng1993\Desktop\FinalProject\tritrack\triTrack2\libviso2\lpng1621\lpng1621\build\CMakeFiles\3.4.3\CMakeCCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\FindZLIB.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\SelectLibraryConfigurations.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\FindPackageMessage.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Users\zhangzheng1993\Desktop\FinalProject\tritrack\triTrack2\libviso2\lpng1621\lpng1621\scripts\pnglibconf.h.prebuilt;C:\Users\zhangzheng1993\Desktop\FinalProject\tritrack\triTrack2\libviso2\lpng1621\lpng1621\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\zhangzheng1993\Desktop\FinalProject\tritrack\triTrack2\libviso2\lpng1621\lpng1621\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/zhangzheng1993/Desktop/FinalProject/tritrack/triTrack2/libviso2/lpng1621/lpng1621/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+D:\Software\cmake-3.4.3-win32-x86\bin\cmake.exe -HC:/Users/zhangzheng1993/Desktop/FinalProject/tritrack/triTrack2/libviso2/lpng1621/lpng1621 -BC:/Users/zhangzheng1993/Desktop/FinalProject/tritrack/triTrack2/libviso2/lpng1621/lpng1621/build --check-stamp-file C:\Users\zhangzheng1993\Desktop\FinalProject\tritrack\triTrack2\libviso2\lpng1621\lpng1621\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/zhangzheng1993/Desktop/FinalProject/tritrack/triTrack2/libviso2/lpng1621/lpng1621/CMakeLists.txt;C:\Users\zhangzheng1993\Desktop\FinalProject\tritrack\triTrack2\libviso2\lpng1621\lpng1621\CMakeLists.txt;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CMakeDetermineSystem.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CMakeSystem.cmake.in;C:\Users\zhangzheng1993\Desktop\FinalProject\tritrack\triTrack2\libviso2\lpng1621\lpng1621\build\CMakeFiles\3.4.3\CMakeSystem.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CMakeSystemSpecificInitialize.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CMakeDetermineCCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CMakeDetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CMakeDetermineCompilerId.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CMakeCompilerIdDetection.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CMakeParseArguments.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\GNU-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\TI-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CompilerId\VS-10.vcxproj.in;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CMakeFindBinUtils.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CMakeCCompiler.cmake.in;C:\Users\zhangzheng1993\Desktop\FinalProject\tritrack\triTrack2\libviso2\lpng1621\lpng1621\build\CMakeFiles\3.4.3\CMakeCCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CMakeSystemSpecificInformation.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CMakeGenericSystem.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Platform\Windows.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Platform\WindowsPaths.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CMakeCInformation.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Platform\Windows-MSVC-C.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CMakeDetermineRCCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CMakeRCCompiler.cmake.in;C:\Users\zhangzheng1993\Desktop\FinalProject\tritrack\triTrack2\libviso2\lpng1621\lpng1621\build\CMakeFiles\3.4.3\CMakeRCCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CMakeRCInformation.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CMakeTestRCCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CMakeTestCCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CMakeTestCompilerCommon.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CMakeDetermineCompilerABI.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CMakeCCompilerABI.c;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CMakeDetermineCompileFeatures.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CMakeCCompiler.cmake.in;C:\Users\zhangzheng1993\Desktop\FinalProject\tritrack\triTrack2\libviso2\lpng1621\lpng1621\build\CMakeFiles\3.4.3\CMakeCCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\FindZLIB.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\SelectLibraryConfigurations.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\FindPackageMessage.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Users\zhangzheng1993\Desktop\FinalProject\tritrack\triTrack2\libviso2\lpng1621\lpng1621\scripts\pnglibconf.h.prebuilt;C:\Users\zhangzheng1993\Desktop\FinalProject\tritrack\triTrack2\libviso2\lpng1621\lpng1621\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\zhangzheng1993\Desktop\FinalProject\tritrack\triTrack2\libviso2\lpng1621\lpng1621\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/zhangzheng1993/Desktop/FinalProject/tritrack/triTrack2/libviso2/lpng1621/lpng1621/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+D:\Software\cmake-3.4.3-win32-x86\bin\cmake.exe -HC:/Users/zhangzheng1993/Desktop/FinalProject/tritrack/triTrack2/libviso2/lpng1621/lpng1621 -BC:/Users/zhangzheng1993/Desktop/FinalProject/tritrack/triTrack2/libviso2/lpng1621/lpng1621/build --check-stamp-file C:\Users\zhangzheng1993\Desktop\FinalProject\tritrack\triTrack2\libviso2\lpng1621\lpng1621\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/zhangzheng1993/Desktop/FinalProject/tritrack/triTrack2/libviso2/lpng1621/lpng1621/CMakeLists.txt;C:\Users\zhangzheng1993\Desktop\FinalProject\tritrack\triTrack2\libviso2\lpng1621\lpng1621\CMakeLists.txt;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CMakeDetermineSystem.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CMakeSystem.cmake.in;C:\Users\zhangzheng1993\Desktop\FinalProject\tritrack\triTrack2\libviso2\lpng1621\lpng1621\build\CMakeFiles\3.4.3\CMakeSystem.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CMakeSystemSpecificInitialize.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CMakeDetermineCCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CMakeDetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CMakeDetermineCompilerId.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CMakeCompilerIdDetection.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CMakeParseArguments.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\GNU-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\TI-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CompilerId\VS-10.vcxproj.in;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CMakeFindBinUtils.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CMakeCCompiler.cmake.in;C:\Users\zhangzheng1993\Desktop\FinalProject\tritrack\triTrack2\libviso2\lpng1621\lpng1621\build\CMakeFiles\3.4.3\CMakeCCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CMakeSystemSpecificInformation.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CMakeGenericSystem.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Platform\Windows.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Platform\WindowsPaths.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CMakeCInformation.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Platform\Windows-MSVC-C.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CMakeDetermineRCCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CMakeRCCompiler.cmake.in;C:\Users\zhangzheng1993\Desktop\FinalProject\tritrack\triTrack2\libviso2\lpng1621\lpng1621\build\CMakeFiles\3.4.3\CMakeRCCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CMakeRCInformation.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CMakeTestRCCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CMakeTestCCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CMakeTestCompilerCommon.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CMakeDetermineCompilerABI.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CMakeCCompilerABI.c;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CMakeDetermineCompileFeatures.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CMakeCCompiler.cmake.in;C:\Users\zhangzheng1993\Desktop\FinalProject\tritrack\triTrack2\libviso2\lpng1621\lpng1621\build\CMakeFiles\3.4.3\CMakeCCompiler.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\FindZLIB.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\SelectLibraryConfigurations.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\FindPackageMessage.cmake;D:\Software\cmake-3.4.3-win32-x86\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Users\zhangzheng1993\Desktop\FinalProject\tritrack\triTrack2\libviso2\lpng1621\lpng1621\scripts\pnglibconf.h.prebuilt;C:\Users\zhangzheng1993\Desktop\FinalProject\tritrack\triTrack2\libviso2\lpng1621\lpng1621\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\zhangzheng1993\Desktop\FinalProject\tritrack\triTrack2\libviso2\lpng1621\lpng1621\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\zhangzheng1993\Desktop\FinalProject\tritrack\triTrack2\libviso2\lpng1621\lpng1621\pngtest.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/Users/zhangzheng1993/Desktop/FinalProject/tritrack/triTrack2/libviso2/lpng1621/lpng1621/build/ZERO_CHECK.vcxproj">
+      <Project>5A400857-131D-3763-AC37-82DC17233847</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/zhangzheng1993/Desktop/FinalProject/tritrack/triTrack2/libviso2/lpng1621/lpng1621/build/png16.vcxproj">
+      <Project>81FBF968-BD40-3927-9C74-15996DB93F9A</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
