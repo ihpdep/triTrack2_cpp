@@ -1,6 +1,6 @@
 #include <iostream>
 #include <Eigen/Dense>
-
+#include <iostream>
 #include <string>
 #include <vector>
 #include <stdint.h>
@@ -64,7 +64,8 @@ int main (int argc, char** argv) {
       png::image< png::gray_pixel > right_img(right_img_file_name);
 
       // image dimensions
-      int32_t width  = left_img.get_width();
+ 
+	  int32_t width  = left_img.get_width();
       int32_t height = left_img.get_height();
 
       // convert input images to uint8_t buffer
@@ -72,7 +73,7 @@ int main (int argc, char** argv) {
       uint8_t* right_img_data = (uint8_t*)malloc(width*height*sizeof(uint8_t));
       int32_t k=0;
       for (int32_t v=0; v<height; v++) {
-        for (int32_t u=0; u<width; u++) {
+         for (int32_t u=0; u<width; u++) {
           left_img_data[k]  = left_img.get_pixel(u,v);
           right_img_data[k] = right_img.get_pixel(u,v);
           k++;
@@ -93,7 +94,7 @@ int main (int argc, char** argv) {
         double num_matches = viso.getNumberOfMatches();
         double num_inliers = viso.getNumberOfInliers();
         cout << ", Matches: " << num_matches;
-        cout << ", Inliers: " << 100.0*num_inliers/num_matches << "%" << ", Current pose: " << endl;
+        cout << ", Inliers: " << 100.0*num_inliers/num_matches << " %" << ", Current pose: " << endl;
         cout << pose << endl << endl;
 
       } else {

@@ -18,5 +18,34 @@
     <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="externals\libviso2\src\filter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="externals\libviso2\src\matcher.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="externals\libviso2\src\matrix.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="externals\libviso2\src\reconstruction.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="externals\libviso2\src\triangle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="externals\libviso2\src\viso.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="externals\libviso2\src\viso_mono.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="externals\libviso2\src\viso_stereo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="externals\zlib-1.2.8\zconf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
